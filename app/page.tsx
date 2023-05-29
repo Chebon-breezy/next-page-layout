@@ -6,8 +6,8 @@ export default function Home() {
   return (
     <main>
       <h1>Hello Next 13</h1>
-
-      <Link href={"/Dashboard"}>Dashboard</Link>
+      <Link href={"/Dashboard"}>Dashboard</Link> <br />
+      <Link href={"/Dashboard/user"}>user</Link>
     </main>
   );
 }
